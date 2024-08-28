@@ -42,6 +42,7 @@ This project demonstrates how to build a system for creating and querying embedd
 ## Usage
 
 ### Create Database
+Before running the command to create a database, you should create the two folders: `chroma/` and `data/`. The chroma folder will be used to store the embeddings in an sqlite database while the data folder will be where you will place all your pdfs. 
 
 To create or update the vector database with embeddings from PDF files, use the `--createdb` flag:
 
